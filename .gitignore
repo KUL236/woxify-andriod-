@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+uploads/
+outputs/
+*.pid
+*.seed
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker volumes (if mapped locally)
+postgres_data/
+redis_data/
+
+# Android / Capacitor
+frontend/android/.gradle/
+frontend/android/build/
+frontend/android/app/build/
+frontend/android/local.properties
+frontend/android/capacitor-cordova-android-plugins/build/
+frontend/android/app/src/main/assets/public/
+frontend/android/app/src/main/assets/capacitor.plugins.json
+*.apk
+*.aab
+*.keystore
