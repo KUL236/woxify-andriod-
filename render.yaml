@@ -3,8 +3,8 @@ services:
     name: woxify-backend
     env: node
     rootDir: backend
-    buildCommand: npm install --production=false && npm run build
-    startCommand: npm start
+    buildCommand: npm install --production
+    startCommand: node dist/app.js
     envVars:
       - key: NODE_ENV
         value: production
